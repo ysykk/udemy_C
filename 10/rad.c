@@ -7,7 +7,7 @@ void main()
 {
     int angle;
     double rad;
-    printf("角度を入力してください(0~360)：");
+    printf("角度を入力してください(0~360): ");
     scanf("%d", &angle);
 
     //度数法→弧度法
