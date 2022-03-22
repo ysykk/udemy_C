@@ -1,8 +1,12 @@
 #include <iostream>
-
+#include "test.h"
 using namespace std;
 
 int main(){
-    cout << "Hello, World!" << endl;
-    return 0;
+    int a = 0;
+    int* p = &a;
+
+    cout << a << endl;
+    test(p);
+    cout << a << endl;
 }
