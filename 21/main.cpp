@@ -1,4 +1,5 @@
 #include "car.h"
+#include "car.cpp"
 
 int main() {
 	CCar c;
