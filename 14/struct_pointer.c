@@ -14,7 +14,7 @@ void main(){
     student_data data[4];
     int i;
     int id[] = {1, 2, 3, 4};
-    char name[][256] = {"jose", "miguel", "rosa", "risa"};
+    char name[][256] = {"jose", "miguel", "rosa", "risa", "Margarita"};
     int age[] = {18, 19, 20, 21};
 
     for(i = 0; i < 4; i++){
